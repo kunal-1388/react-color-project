@@ -1,0 +1,70 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  height: 6vh;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  height: 100%;
+  align-items: center;
+  background-color: #eceff1;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.Logo a {
+  text-decoration: none;
+  color: black;
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.slider h5 {
+  display: inline-block;
+  margin-right: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.rc-slider {
+  width: 300px;
+}
+.rc-slider-track {
+  background-color: transparent;
+}
+.rc-slider-rail {
+  height: 8px;
+}
+.rc-slider-handle,
+.rc-slider-handle:active,
+.rc-slider-handle:hover,
+.rc-slider-handle:focus {
+  background-color: green;
+  outline: none;
+  border: 2px solid green;
+  box-shadow: none;
+  width: 13px;
+  height: 13px;
+  margin-left: -7px;
+  margin-top: -3px;
+}
+
+.select-container {
+  margin-right: 2rem;
+  margin-left: auto;
+  text-align: center;
+}
+
+.select-container-box {
+  width: 11.5rem;
+}
